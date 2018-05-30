@@ -9,5 +9,6 @@ Pod::Spec.new do |s|
   s.source       		= { :git => 'https://github.com/OceanHorn/iOS-WebP.git', :tag => "v#{s.version}" }
   s.source_files		= 'iOS-WebP/*.{h,m}'
   s.requires_arc		= true
-  s.dependency      'libwebp', '~> 0.6.0'
+  #s.dependency      'libwebp', '~> 0.6.0'
+  s.dependency      'libwebp', :source => 'https://mptst.picclife.cn/iOSRepos/PICCLifeSpecs.git'
 end
